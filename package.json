@@ -6,7 +6,8 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
@@ -25,6 +26,8 @@
     "expo-updates": "~0.14.6",
     "firebase": "9.6.7",
     "formik": "^2.2.9",
+    "patch-package": "^6.5.0",
+    "postinstall-postinstall": "^2.1.0",
     "react": "18.0.0",
     "react-native": "0.69.6",
     "react-native-elements": "^3.4.2",
